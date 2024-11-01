@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+/* NAVIGATION BAR */
+.topnav {
+    /* position */
+    position: absolute;
+    top:20px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+/* links */
+.topnav a{
+    text-decoration: none;
+    color: lightgrey;
+    padding: 20px;
+    font-size: 18px;
+}
+.topnav a.active {
+    color: white;
+}
+
+.topnav a:hover{
+    text-decoration: underline;
+}
+
+/* INTRO */
+/* background image */
+#backimg {
+    background-image: url("webDevBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* background image text */
+.intro{
+    color: white;
+    text-align: center;
+}
+
+.intro h1{
+    font-size: 3.5em;
+    margin-bottom: 0.2em;
+}
+
+.intro h2{
+    font-size: 2em;
+    margin-top:0;
+}
+
+/* MAIN CONTENT */
+
+.mainContent {
+    margin: 5% 8%;
+}
+
+.projects {
+    text-align: center;
+}
+
+.projects img{
+    margin-top: 2%;
+}
+
+/* FOOTER */
+footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
